@@ -1,0 +1,183 @@
+/* Página Meet & Coffee */
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+body {
+  text-align: center;
+  color: #000f08;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+  text-align: left;
+  padding: 1.25rem 4rem;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 1em;
+  vertical-align: middle;
+}
+
+.oscuro {
+  background: #000f08;
+  color: #ffffff;
+}
+
+.oscuro a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.sweet-brown {
+  text-align: left;
+  background: #a4452c;
+  color: #ffffff;
+  padding: 50px;
+  white-space: nowrap;
+}
+
+footer {
+  padding: 50px;
+}
+
+.hero-section {
+  text-align: right;
+  background-image: url("../img/bg-hero.png");
+  background-repeat: none;
+  background-size: cover;
+  color: #ffffff;
+  text-shadow: 0.125rem 0.25rem 0.125rem #707070;
+  padding: 8rem 3.125rem 5rem 3.125rem;
+}
+
+section,
+footer {
+  margin-top: 75px;
+}
+
+.charla-speaker,
+.charla-texto,
+.evento {
+  display: inline-block;
+}
+
+.centrado {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.charla-speaker {
+  width: 25%;
+  vertical-align: middle;
+}
+
+.charla-texto {
+  width: 72.5%;
+  vertical-align: middle;
+  margin-left: 2.5%;
+  white-space: normal;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 3.75em;
+  margin-bottom: 0.25em;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 2.5em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+h4 {
+  font-size: 1.75em;
+}
+
+h5 {
+  font-size: 1.25em;
+}
+
+.subtitulo {
+  font-weight: 400;
+}
+
+.subtitulo,
+h4,
+h5 {
+  font-weight: 400;
+}
+
+#ubicacion h2 {
+  margin: 1em auto;
+}
+
+.sweet-brown h3,
+.sweet-brown h5 {
+  margin-bottom: 0.5em;
+}
+
+#eventos h2 {
+  margin-bottom: 1em;
+}
+
+#eventos h3 {
+  margin: 1em auto;
+}
+
+.icono {
+  width: 2rem;
+}
+
+.icono svg {
+  fill: #ffffff;
+}
+
+footer i {
+  margin: 0 0.25em 0.5em 0.25em;
+  font-size: 3rem;
+}
+
+/* Página Evento */
+
+.contenedor-evento {
+  max-width: 1085px;
+  margin: 0 auto;
+}
+
+.titulo-evento {
+  font-size: 45px;
+  text-align: left;
+  padding: 4rem 0 2.5rem 0;
+}
+
+.img-evento {
+  max-width: 1085px;
+  padding-bottom: 2rem;
+}
+
+.texto-evento {
+  padding: 1rem 0;
+  text-align: left;
+}
+
+.subtitulo-evento {
+  font-size: 40px;
+  text-align: left;
+  padding-bottom: 2.5rem;
+}
